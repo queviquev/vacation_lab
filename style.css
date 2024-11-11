@@ -10,7 +10,7 @@ body {
   }
   
 #introductory {
-    background-image: url(./images/headerbg.jpg);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.459),transparent 50%), url(./images/cascades.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -20,34 +20,21 @@ h1 {
     font-weight: 400;
     font-style: normal;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #dc3545;
+    -webkit-text-stroke-color: #198352;
 }
-
-#fullpage {
-    display: none;
-    position: absolute;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat no-repeat;
-    background-position: center center;
-    background-color: black;
-  }
 
 h2 {
     font-family: "Parisienne", cursive;
     font-weight: 400;
     font-style: normal;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #dc3545;
+    -webkit-text-stroke-color: #198352;
 }
 
 #headertext {
+    color: rgb(223, 183, 226);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #dc3545;
+    -webkit-text-stroke-color: #198352;
 }
 
 #nav {
@@ -59,6 +46,7 @@ h2 {
     min-height: 100vh;
     align-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .carousel-item img{
